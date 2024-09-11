@@ -1,0 +1,5 @@
+defaults:
+  - dataset: crema_d
+  - model: m13mfcc_sm
+  - train: torch_dry_run
+  - exp: auto

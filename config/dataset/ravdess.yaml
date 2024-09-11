@@ -1,0 +1,11 @@
+name: ravdess
+dataset_class: WaveformDataset
+root: ravdess/
+audio_dir: full_release/
+feature_dir: preprocessing/
+label_name: label_emotion_key
+feature_name: audio16k
+num_classes: 8
+label_values: [neu, cal, hap, sad, ang, fea, dis, sur]
+classnames: [neu, cal, hap, sad, ang, fea, dis, sur]
+target_labels: [ang, neu, sad, hap]

@@ -1,0 +1,11 @@
+name: crema_d
+dataset_class: WaveformDataset
+root: crema_d/
+audio_dir: full_release/
+feature_dir: preprocessing/
+label_name: label6
+feature_name: audio16k
+num_classes: 6
+label_values: [neu, hap, sad, ang, fea, dis]
+classnames: [neu, hap, sad, ang, fea, dis]
+target_labels: [ang, neu, sad, hap]
